@@ -1,0 +1,19 @@
+batch_size: 8
+mel_frames: 800
+lr: 0.0001
+num_epochs: 100000
+sample_interval: 250
+device: 'cuda:4'
+input_size: [729,513] #(t,f)
+patch_size: 9
+in_channels: 4
+hidden_size: 384
+depth: 12
+num_heads: 6
+checkpoint_dir: 'checkpoints'
+data:
+    name: "MUSDB18HQ"
+    root: "/datasets/musdb18hq"
+    sample_rate: 24000
+    clip_duration: 9.1
+
