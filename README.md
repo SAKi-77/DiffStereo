@@ -2,7 +2,7 @@
 **DiffStereo** is an end-to-end diffusion transformer-based model for mono-to-stereo audio generation. Unlike traditional methods that require expert knowledge or explicit positional information to create stereo effects—limiting their scalability and generalization—DiffStereo explores this task without relying on any extra condition inputs. It directly synthesizes stereo audio from a mono waveform in an end-to-end fashion, requiring no human intervention or prior knowledge.
 
 ## DEMO 
-🎧 Before you listen, put on your favorite headphones and make sure they sit nicely on both ears.<br>
+🎧 Before you listen, put on your headphones and make sure they sit nicely on both ears.<br>
 👉 When you're ready, navigate to ./demos and enjoy the experience!
 
 
