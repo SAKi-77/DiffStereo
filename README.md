@@ -8,7 +8,7 @@
 
 ## Training 
 
-## Step 1: Build Environment
+### Step 1: Build Environment
 
 Create conda environment and install the dependencies:
 
