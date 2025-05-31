@@ -38,7 +38,7 @@ CUDA_VISIBLE_DEVICES="0,1" python -m torch.distributed.launch --nproc_per_node 2
 Sample stereo audio using the trained model:
 
 ```bash
-python sample_demo_m2s.py --checkpoint ./checkpoints/model_epoch_80000.pt \
+python sample.py --checkpoint ./checkpoints/model_epoch_80000.pt \
                       --output_gt_dir ./sample_results/gt \
                       --output_gt_mono_dir ./sample_results/gt_mono \
                       --output_gen_dir ./sample_results/gn \

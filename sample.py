@@ -93,7 +93,7 @@ if __name__ == "__main__":
     main()
 ### how to use
 '''
-python sample_demo_m2s.py --checkpoint ./checkpoints/model_epoch_80000.pt \
+python sample.py --checkpoint ./checkpoints/model_epoch_80000.pt \
                       --output_gt_dir ./sample_demos/gt \
                       --output_gt_mono_dir ./sample_demos/gt_mono \
                       --output_gen_dir ./sample_demos/gn \
