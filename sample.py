@@ -77,7 +77,6 @@ def main():
     diffusion = create_diffusion(timestep_respacing="")
     audio2spec = AudioToSpec()
     spec2audio = SpecToAudio()
-
     test_dataset = MUSDB18HQDataset(root="/datasets/musdb18hq", split="test", sr=args.sample_rate)
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False)
     
@@ -94,8 +93,8 @@ if __name__ == "__main__":
 ### how to use
 '''
 python sample.py --checkpoint ./checkpoints/model_epoch_80000.pt \
-                      --output_gt_dir ./sample_demos/gt \
-                      --output_gt_mono_dir ./sample_demos/gt_mono \
-                      --output_gen_dir ./sample_demos/gn \
+                      --output_gt_dir ./sample_results/gt \
+                      --output_gt_mono_dir ./sample_results/gt_mono \
+                      --output_gen_dir ./sample_results/gn \
                       --sample_rate 24000
 '''
